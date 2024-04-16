@@ -135,13 +135,13 @@ namespace CLEAN_CODE_CAP_2__NOMBRES_CON_SENTIDO_
 
         //Interfaces e Implementaciones
 
-        public interface IAnimal
+        public interface IAni
         {
             void Comer();
             void Moverse();
         }
 
-        public class gato : IAnimal
+        public class gato : IAni
         {
             public void Comer()
             {
@@ -154,13 +154,13 @@ namespace CLEAN_CODE_CAP_2__NOMBRES_CON_SENTIDO_
             }
         }
 
-        public interface IAnimal2
+        public interface IAnimal
         {
             void Alimentarse();
             void Desplazarse();
         }
 
-        public class Gato : IAnimal2
+        public class Gato : IAnimal
         {
             public void Alimentarse()
             {
